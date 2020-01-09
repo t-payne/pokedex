@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './Pokedex.css';
+import Pokecard from './Pokecard';
 
 function Pokedex() {
   return (
     <div className="Pokedex">
-      Pokedex
+      <Pokecard />
     </div>
   );
 }
