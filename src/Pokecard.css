@@ -1,3 +1,16 @@
-.Pokedex {
-  text-align: center;
+.Pokecard {
+  border-style: solid;
+  border-radius: 25px;
+  background-color: lightblue;
+}
+
+.Pokecard-h3 {
+  color: darkgreen;
+}
+
+.Pokecard:hover img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
